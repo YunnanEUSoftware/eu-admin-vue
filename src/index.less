@@ -1,0 +1,368 @@
+@import '~view-design/src/styles/index.less';
+
+@menu-dark-title: #001529;
+@menu-dark-active-bg: #000c17;
+@layout-sider-background: #001529;
+
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+@deep: ~'>>>';
+
+/* 表格内按钮 */
+.public-table-btn {
+  .ivu-btn-text {
+    color: #2d8cf0;
+    padding-left: 0;
+    i {
+      display: inline-block;
+      padding-right: 0px;
+      vertical-align: middle;
+    }
+
+    &:hover {
+      background-color: transparent;
+    }
+    &:disabled {
+      background-color: transparent;
+      color: #c5c8ce;
+    }
+  }
+
+}
+
+.ivu-btn-text {
+  color: #2d8cf0;
+}
+
+
+.ivu-layout-footer {
+  background: #f0f2f5;
+
+}
+
+.ivu-layout {
+  background: #f0f2f5;
+
+}
+
+.content-wrapper {
+  >div {
+    height: 100%;
+
+    .flex-content {
+      display: flex;
+      flex-direction: column;
+      height: inherit;
+
+      .ivu-card {
+        flex: 1;
+      }
+    }
+  }
+}
+
+.ivu-form {
+  // .ivu-form-item-label {
+    // padding: 9px 12px 9px 0;
+  // }
+
+  .ivu-input-number {
+    width: 50%;
+  }
+}
+
+.form-label-item {
+  display: block;
+  color: #808695;
+  min-width: 350px;
+  line-height: 33px;
+}
+
+.title-table-group {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+
+}
+
+.table-search-group {
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: flex-end;
+
+  .drag-search {
+    margin-right: 16px;
+
+    .search-label {
+      font-size: 14px;
+      color: #797979;
+      margin-right: 10px;
+    }
+
+    .group-area {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .darg-input {
+      width: 202px;
+
+    }
+  }
+}
+
+
+
+.foot-page {
+  padding: 16px 0 0;
+  text-align: right;
+}
+
+.ivu-card-body {
+  padding: 16px 24px;
+}
+
+
+.form-item {
+  max-width: 480px;
+  min-width: 370px;
+}
+
+
+// 表格文字隐藏
+.table-tooltip-text {
+  overflow: hidden;
+  /*自动隐藏文字*/
+  text-overflow: ellipsis;
+  /*文字隐藏后添加省略号*/
+  white-space: nowrap;
+  /*强制不换行*/
+}
+
+.power-row {
+  overflow-y: scroll
+}
+
+/**
+* 页面常用公共样式，public-开头
+**/
+.public-detail-item {
+  margin-bottom: 16px;
+  div {
+    display: inline-block;
+  }
+  i {
+    cursor: pointer;
+  }
+  .public-detail-item-update {
+    display: none;
+  }
+  .public-details-update-btn-group {
+    padding: 0 4px;
+  }
+  .public-can-update-item {
+    display: inline-block;
+    cursor: pointer;
+    &:hover {
+      .public-detail-item-update {
+        display: inline;
+      }
+    }
+  }
+}
+
+// 表格的按钮及分页
+.public-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  button {
+    margin-bottom: 4px;
+  }
+
+  > :last-child {
+    white-space: nowrap;
+  }
+}
+
+// 表格的按钮及分页
+.public-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  button {
+      margin-bottom: 4px;
+  }
+
+  > :last-child {
+      white-space: nowrap;
+  }
+}
+
+// 仅展示信息的表单
+.public-form-item {
+  margin-bottom: 8px !important;
+}
+
+/* 模态框按钮样式 */
+.public-modal-btn {
+  text-align: center;
+  > button {
+      margin: 10px 20px;
+  }
+}
+
+// 表格上的搜索框
+.public-search {
+  // margin-bottom: 16px;
+  line-height: 40px;
+  text-align: justify;
+  text-align-last: justify;
+
+  > div {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    text-align-last: left;
+  }
+  .public-search-item {
+    min-width: calc(33%);
+    padding-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    &:nth-child(3n) {
+      padding-right: 0;
+    }
+  }
+  .select-width {
+    flex: 1;
+    min-width: 220px;
+  }
+}
+
+/*表格上的每个搜索项*/
+// .public-search-item {
+//   display: inline-block;
+//   padding-right: 10px;
+// }
+.public-search-text {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+// 下拉框
+.public-search-select {
+  width: auto !important;
+  // width: 230px !important;
+}
+
+// 输入搜索框
+.public-input-search {
+  display: inline-block;
+  vertical-align: -12px
+}
+// iView搜索样式重写
+.public-input-search .ivu-input-icon {
+  right: 46px;
+}
+
+// 表格下方的提示
+.public-table-prompt {
+  color: #f00 !important;
+  padding: 10px 0;
+}
+
+// 下划线
+.underline {
+  text-decoration: underline;
+  color: #2D8CF0;
+  cursor: pointer;
+}
+
+// iview 重写样式
+/* 表格 */
+.ivu-table-wrapper{
+  margin-bottom: 10px;
+}
+/* 分页 */
+.ivu-page {
+  text-align: right;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+// 重写@riophae/vue-treeselect树形选择样式 https://www.vue-treeselect.cn
+.vue-treeselect {
+  display: inline-block;
+  width: 100%;
+  line-height: normal;
+  box-sizing: border-box;
+  vertical-align: middle;
+  .vue-treeselect__control {
+    height: 32px;
+  }
+}
+
+/* 重写ant样式 */
+// 页头样式
+.ant-page-header {
+  background: #ffffff !important;
+  border: 1px solid #ebedf0;
+  margin: -24px -24px 24px -24px !important;
+}
+
+// 内含表格的卡片
+.table-card {
+  // 重写iview样式
+  .ivu-card-body {
+    padding: 0;
+    .table-statistical {
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      .table-statistical-item {
+        display: inline-block;
+        margin: 0 6px;
+      }
+    }
+  }
+  .table-card-list {
+    margin: 0 24px;
+    // .ant-list-item-meta {
+    //   // flex: none;
+    // }
+    // .ant-list-item-meta-content {
+    //   // text-align: left;
+    // }
+  }
+}
+
+// iview样式重写 卡片头
+.ivu-card-head {
+  // padding: 24px;
+  .title {
+    font-size: 16px;
+  }
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+// 下拉菜单文字颜色
+.ivu-dropdown-item:hover{
+  color:#2d8cf0
+}
