@@ -1,12 +1,10 @@
 ## eu-admin-vue
-_____
-基础项目平台针对后台管理系统中的登录、组织架构、权限管理、系统配置等功能给出了解决方案，开箱即用，如有其他业务需求，在此基础上新增即可。
+基础平台项目针对后台管理系统中的登录、组织架构、权限管理、系统配置等功能给出了解决方案，开箱即用，如有其他业务需求，在此模板上新增即可。
 
 前端项目基于ivew-admin，除了view-design大量用到外，antv与elementUI都是按需引入的，使用时请引入具体组件。
 
 
 ## 快速开始
-____
 >方法一 
 
 从GitHub直接获取代码，使用如下命令获取最新代码
@@ -15,7 +13,9 @@ ____
 
 然后进入项目根目录
 
-`cd eu-admin-vue`
+```
+cd eu-admin-vue
+```
 
 安装依赖并运行项目
 
@@ -29,7 +29,9 @@ npm run dev
 
 使用npm安装脚手架
 
-`npm install -g eu-admin-cli`
+```
+npm install -g eu-admin-cli
+```
 
 查看模板列表
 
@@ -63,11 +65,9 @@ $ eusoft init
 
 运行项目
 
-`npm eun dev`
-
-
-> 除了view-design大量用到外，antv与elementUI都是按需引入的，使用时请引入具体组件 
+```
+npm eun dev
+```
 
 ## DEMO
-_____
 待补充
