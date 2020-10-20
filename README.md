@@ -1,7 +1,11 @@
+<p align="center"><img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/logo.png" title="" width="250px" /> </p>
+
 ## eu-admin-vue
 基础平台项目针对后台管理系统中的登录、组织架构、权限管理、系统配置等功能给出了解决方案，开箱即用，如有其他业务需求，在此模板上新增即可。
 
 前端项目基于ivew-admin，除了view-design大量用到外，antv与elementUI都是按需引入的，使用时请引入具体组件。
+
+![License](https://img.shields.io/npm/l/package.json.svg?style=flat)
 
 
 ## 快速开始
@@ -71,3 +75,10 @@ npm eun dev
 
 ## DEMO
 待补充
+
+## 资源链接
+* <p><a href="http://admin.iviewui.com/home">iVew-admin</a></p>
+* <p><a href="https://iviewui.com/docs/introduce">iVew UI 组件库</a></p>
+* <p><a href="https://www.antdv.com/docs/vue/introduce-cn/">Ant Design Vue 组件库</a></p>
+* <p><a href="https://element.eleme.cn/#/zh-CN/component/installation">Element UI 组件库</a></p>
+* <p><a href="https://echarts.apache.org/examples/zh/index.html">echarts 图表实例</a></p>
