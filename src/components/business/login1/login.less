@@ -1,0 +1,100 @@
+.login{
+    width: 100%;
+    height: 100%;
+    // background: bisque;
+    position: relative;
+    &-bg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        // margin-left: 50%;
+        // transform: translateX(-50%);
+        img{
+            // opacity:0.5;
+            // filter:alpha(opacity=50);/* 针对 IE8 以及更早的版本 */
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .header{
+        background: white;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        &-row{
+            margin-left: 10%;
+            line-height: 80px;
+        }
+        &-img{
+            width: 140px;
+            height: 80px;
+            vertical-align: middle;
+        }
+        &-title{
+            color: #2db7f5;
+            font-size: 24px;
+            vertical-align: middle;
+        }
+    }
+    // & 代表上一级
+    &-con{
+        position: relative;
+        margin: 0 auto;
+        width: 900px;
+        top: 50%;
+        transform: translateY(-50%);
+        &-header{
+            margin-bottom: 48px;
+            span{
+                font-size: 40px;
+                color:#2db7f5;
+                font-weight: bold;
+            }
+        }
+        &-img{
+            width: 400px;
+            height: 340px;
+            img{
+                // opacity:0.5;
+                // filter:alpha(opacity=50);/* 针对 IE8 以及更早的版本 */
+                width: 100%;
+                height: 100%;
+                margin-left: 24px;
+            }
+        }
+        .form-con{
+            width: 310px;
+            height: 360px;
+            margin: 0 auto;
+            padding: 24px;
+            box-shadow: 0px 0px 10px#dcdee2;
+            &-common{
+                padding: 24px 0;
+            }
+            &-business{
+                padding: 24px 0;
+            }
+            &-fortget{
+                padding: 24px 0;
+            }
+        }
+
+    }
+    .footer{
+        background: white;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        text-align: center
+    }
+}
+
+/deep/.ivu-input:hover{
+    border: 2px solid #2d8cf0;
+}
+/deep/.ivu-input-group-prepend {
+    background: white;
+    border-right: none;
+  }
