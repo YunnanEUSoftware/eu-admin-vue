@@ -89,10 +89,10 @@ npm eun dev
 <br>
 
 
-<img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/CHRSlogo.ico" title="" width="30px" /> **彩云人力资源服务SaaS平台** 
-是公司的重点研发的人力资源服务产品，欢迎登录试用。<br>
+<img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/CHRSlogo.ico" title="" width="24px" /> **彩云人力资源服务SaaS平台**是公司的重点研发的人力资源服务产品，欢迎访问我们的官网。<br>
+<p><img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/CHRS.png" title="" /></p>
+<br>
 **✉ 商务联系：18082952016**
-<p><img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/CHRS.png" title="" /> </p>
 <br>
 
 
