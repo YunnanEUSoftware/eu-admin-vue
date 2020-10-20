@@ -1,7 +1,7 @@
 {
-    "name": "EUSoftWare",
+    "name": "EUSoftware",
     "version": "2.0.0",
-    "author": "EUSoftWare",
+    "author": "EUSoftware",
     "private": false,
     "scripts": {
         "dev": "vue-cli-service serve --open",
