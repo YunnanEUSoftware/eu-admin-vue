@@ -80,14 +80,16 @@ npm eun dev
 * <p><a href="https://echarts.apache.org/examples/zh/index.html">echarts 图表实例</a></p>
 
 ## 关于我们🏨
-
+<br>
 易用是一家为HRS行业提供可靠企业服务软件的公司，
 本着客户第一，诚信服务，互利共赢的理念，
 助力企业数字化升级。
 我们的使命是：开发易用的信息系统赋能客户业务。
 <br>
-彩云人力资源服务SaaS平台 是公司的重点研发的人力资源服务产品，欢迎登录试用。
-商务联系：✉18082952016
+<br>
+<br>
+**彩云人力资源服务SaaS平台** 是公司的重点研发的人力资源服务产品，欢迎登录试用。
+**商务联系：✉18082952016**
 <p><img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/CHRS.png" title="" /> </p>
 <br>
 
