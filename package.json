@@ -1,7 +1,7 @@
 {
-    "name": "portal",
+    "name": "EUSoftWare",
     "version": "2.0.0",
-    "author": "sx",
+    "author": "EUSoftWare",
     "private": false,
     "scripts": {
         "dev": "vue-cli-service serve --open",
@@ -22,7 +22,6 @@
         "countup": "^1.8.2",
         "echarts": "^4.0.4",
         "element-ui": "^2.13.0",
-        "mavon-editor": "^2.9.0",
         "qs": "^6.6.0",
         "sass-resources-loader": "^2.0.0",
         "screenfull": "^5.0.2",
