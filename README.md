@@ -2,6 +2,7 @@
 
 <h1 align="center">eu-admin-vue</h1>
 🌈基础平台项目针对后台管理系统中的登录、组织架构、权限管理、系统配置等功能给出了解决方案，开箱即用，如有其他业务需求，在此模板上新增即可。
+
 🌈前端项目基于ivew-admin，除了view-design大量用到外，antv与elementUI都是按需引入的，使用时请引入具体组件。
 
 ![License](https://img.shields.io/npm/l/package.json.svg?style=flat) ![](https://img.shields.io/badge/2.5.10-vue-brightgreen) ![](https://badgen.net/badge/icon/Ant%20Design?icon=https://gw.alipayobjects.com/zos/antfincdn/Pp4WPgVDB3/KDpgvguMpGfqaHPjicRK.svg&label) ![](https://img.shields.io/badge/-iView%20Admin-blue) ![](https://img.shields.io/badge/chart-ECharts-brightgreen) ![](https://img.shields.io/badge/4.0.0-view--design-green) ![](https://img.shields.io/badge/1.6.5-ant--design--vue-green) ![](https://img.shields.io/badge/2.13.0-element--ui-green) ![](https://img.shields.io/badge/0.18.1-axios-yellowgreen)
