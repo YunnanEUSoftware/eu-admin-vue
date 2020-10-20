@@ -1,12 +1,17 @@
 <p align="center"><img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/logo.png" title="" width="250px" /> </p>
 
 <h1 align="center">eu-admin-vue</h1>
-基础平台项目针对后台管理系统中的登录、组织架构、权限管理、系统配置等功能给出了解决方案，开箱即用，如有其他业务需求，在此模板上新增即可。
+🌈基础平台项目针对后台管理系统中的登录、组织架构、权限管理、系统配置等功能给出了解决方案，开箱即用，如有其他业务需求，在此模板上新增即可。
 
-前端项目基于ivew-admin，除了view-design大量用到外，antv与elementUI都是按需引入的，使用时请引入具体组件。
+🌈前端项目基于ivew-admin，除了view-design大量用到外，antv与elementUI都是按需引入的，使用时请引入具体组件。
 
-![License](https://img.shields.io/npm/l/package.json.svg?style=flat) ![](https://badgen.net/badge/icon/Ant%20Design?icon=https://gw.alipayobjects.com/zos/antfincdn/Pp4WPgVDB3/KDpgvguMpGfqaHPjicRK.svg&label) ![](https://img.shields.io/badge/-iView%20Admin-blue) ![](https://img.shields.io/badge/chart-ECharts-brightgreen)
+![License](https://img.shields.io/npm/l/package.json.svg?style=flat) ![](https://img.shields.io/badge/2.5.10-vue-brightgreen) ![](https://badgen.net/badge/icon/Ant%20Design?icon=https://gw.alipayobjects.com/zos/antfincdn/Pp4WPgVDB3/KDpgvguMpGfqaHPjicRK.svg&label) ![](https://img.shields.io/badge/-iView%20Admin-blue) ![](https://img.shields.io/badge/chart-ECharts-brightgreen) ![](https://img.shields.io/badge/4.0.0-view--design-green) ![](https://img.shields.io/badge/1.6.5-ant--design--vue-green) ![](https://img.shields.io/badge/2.13.0-element--ui-green) ![](https://img.shields.io/badge/0.18.1-axios-yellowgreen)
 
+<p><img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/CHRS.png" title="" /> </p>
+<br>
+
+* 预览：https://demo.yneusoft.com/hroStaffPc/login?companyCode=null
+* 公司官网：http://www.yneusoft.com/
 
 ## 快速开始
 >方法一 
@@ -73,10 +78,7 @@ $ eusoft init
 npm eun dev
 ```
 
-## DEMO
-待补充
-
-## 资源链接
+## 资源链接 ✨✨
 * <p><a href="http://admin.iviewui.com/home">iVew-admin</a></p>
 * <p><a href="https://iviewui.com/docs/introduce">iVew UI 组件库</a></p>
 * <p><a href="https://www.antdv.com/docs/vue/introduce-cn/">Ant Design Vue 组件库</a></p>
