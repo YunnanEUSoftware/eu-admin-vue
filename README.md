@@ -99,6 +99,6 @@ npm eun dev
 <br>
 
 
-* 🔗预览：https://demo.yneusoft.com/hroStaffPc/login
+**🔗产品试用：https://demo.yneusoft.com/hroStaffPc/login
 
-* 🔗公司官网：http://www.yneusoft.com/
+**🔗公司官网：http://www.yneusoft.com/
