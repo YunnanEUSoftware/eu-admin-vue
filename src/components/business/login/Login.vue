@@ -17,107 +17,158 @@
         <div class="login-content-panel">
           <Tabs value="staff-login">
             <!-- 登录 -->
-            <TabPane label="登录" name="staff-login">
-              <Form ref="formStaffLogin" :model="formStaffLogin" :rules="formStaffLoginRule">
+            <TabPane label="登录"
+                     name="staff-login">
+              <Form ref="formStaffLogin"
+                    :model="formStaffLogin"
+                    :rules="formStaffLoginRule">
                 <FormItem prop="phone">
-                  <Input size="large" placeholder="请输入手机号"
-                    autocomplete="on" v-model="formStaffLogin.phone" />
+                  <Input size="large"
+                         placeholder="请输入手机号"
+                         autocomplete="on"
+                         v-model="formStaffLogin.phone" />
                 </FormItem>
                 <FormItem prop="loginKey">
-                  <Input size="large" type="password"
-                    placeholder="请输入登录密码" autocomplete="on" v-model="formStaffLogin.loginKey" />
+                  <Input size="large"
+                         type="password"
+                         placeholder="请输入登录密码"
+                         autocomplete="on"
+                         v-model="formStaffLogin.loginKey" />
                 </FormItem>
                 <FormItem prop="imageCode">
                   <Row>
                     <Col :span="16">
-                        <Input size="large"
-                      placeholder="请输入图片验证码" autocomplete="on" v-model="formStaffLogin.imageCode" />
+                    <Input size="large"
+                           placeholder="请输入图片验证码"
+                           autocomplete="on"
+                           v-model="formStaffLogin.imageCode" />
                     </Col>
-                    <Col :span="7" :offset="1">
-                      <img @click="getImageCaptchaPicture" :src="imageCodeUrl" alt="图片" style="display: inline-block; width: 100%;">
+                    <Col :span="7"
+                         :offset="1">
+                    <img @click="getImageCaptchaPicture"
+                         :src="imageCodeUrl"
+                         alt="图片"
+                         style="display: inline-block; width: 100%;">
                     </Col>
                   </Row>
                 </FormItem>
               </Form>
               <Row class="check-row">
                 <Col span="12">
-                  <Checkbox v-model="rememberKey">记住密码</Checkbox>
+                <Checkbox v-model="rememberKey">记住密码</Checkbox>
                 </Col>
                 <Col span="12">
-                  <a href="#" style="float: right;"
-                    @click="openForgetKeyModal">忘记密码</a>
+                <a href="#"
+                   style="float: right;"
+                   @click="openForgetKeyModal">忘记密码</a>
                 </Col>
               </Row>
               <div>
-                <Button
-                  size="large"
-                  type="primary"
-                  long
-                  @click="getLogin('formStaffLogin')"
-                  :loading="buttonLoading"
-                >登录</Button>
+                <Button size="large"
+                        type="primary"
+                        long
+                        @click="getLogin('formStaffLogin')"
+                        :loading="buttonLoading">登录</Button>
               </div>
             </TabPane>
           </Tabs>
         </div>
         <!-- 轮播 -->
-        <Carousel :autoplay="setting.autoplay" :dots="setting.dots"
-          :autoplay-speed="setting.autoplaySpeed"
-          :trigger="setting.trigger" :arrow="setting.arrow" v-model="setting.carouselitme" loop>
-          <CarouselItem v-for="(item, index) in companyInfo.imagesUrlList" :key="index">
+        <Carousel :autoplay="setting.autoplay"
+                  :dots="setting.dots"
+                  :autoplay-speed="setting.autoplaySpeed"
+                  :trigger="setting.trigger"
+                  :arrow="setting.arrow"
+                  v-model="setting.carouselitme"
+                  loop>
+          <CarouselItem v-for="(item, index) in companyInfo.imagesUrlList"
+                        :key="index">
             <div class="item-carousel">
-              <img class="item-img" :src="item.imagesUrl" alt srcset />
+              <img class="item-img"
+                   :src="item.imagesUrl"
+                   alt
+                   srcset />
             </div>
           </CarouselItem>
         </Carousel>
       </div>
     </Content>
     <Footer class="layout-footer-center login-footer">
-      <a class="footer-alink" href="#">彩云人力资源服务SaaS技术支持</a>
-      <a class="footer-alink" href="#">云南易用软件有限公司 © 版权所有</a>
+      <a class="footer-alink"
+         href="#">彩云人力资源服务SaaS技术支持</a>
+      <a class="footer-alink"
+         href="#">云南易用软件有限公司 © 版权所有</a>
     </Footer>
 
     <!-- 模态框找回密码 -->
-    <Modal v-model="forgetKeyModal" title="忘记密码" width="500px" footer-hide :mask-closable="false">
+    <Modal v-model="forgetKeyModal"
+           title="忘记密码"
+           width="500px"
+           footer-hide
+           :mask-closable="false">
       <div class="model-form">
-        <Form ref="forgetPsw" :model="forgetPswData" :rules="forgetPswRule">
+        <Form ref="forgetPsw"
+              :model="forgetPswData"
+              :rules="forgetPswRule">
           <FormItem prop="phone">
-            <Input size="large" placeholder="请输入手机号"
-              autocomplete="on" v-model="forgetPswData.phone" />
+            <Input size="large"
+                   placeholder="请输入手机号"
+                   autocomplete="on"
+                   v-model="forgetPswData.phone" />
           </FormItem>
           <FormItem prop="imageCode">
             <Row>
               <Col :span="16">
-                  <Input size="large"
-                placeholder="请输入图片验证码" autocomplete="on" v-model="forgetPswData.imageCode" />
+              <Input size="large"
+                     placeholder="请输入图片验证码"
+                     autocomplete="on"
+                     v-model="forgetPswData.imageCode" />
               </Col>
-              <Col :span="7" :offset="1">
-                <img @click="getImageCaptchaPicture" :src="forGetImageCodeUrl" alt="图片" style="display: inline-block; width: 100%;">
+              <Col :span="7"
+                   :offset="1">
+              <img @click="getImageCaptchaPicture"
+                   :src="forGetImageCodeUrl"
+                   alt="图片"
+                   style="display: inline-block; width: 100%;">
               </Col>
             </Row>
           </FormItem>
           <FormItem prop="messageCode">
             <Row>
               <Col :span="11">
-                  <Input size="large"
-                placeholder="请输入短信验证码" autocomplete="on" v-model="forgetPswData.messageCode" />
+              <Input size="large"
+                     placeholder="请输入短信验证码"
+                     autocomplete="on"
+                     v-model="forgetPswData.messageCode" />
               </Col>
-              <Col :span="12" :offset="1">
-                <Button style="width: 100%;" :loading="timing !== 0" @click="sendPhoneCode('forgetPsw')">{{ sendPhoneCodeMsg }}</Button>
+              <Col :span="12"
+                   :offset="1">
+              <Button style="width: 100%;"
+                      :loading="timing !== 0"
+                      @click="sendPhoneCode('forgetPsw')">{{ sendPhoneCodeMsg }}</Button>
               </Col>
             </Row>
           </FormItem>
           <FormItem prop="loginKey">
-            <Input size="large" type="password"
-              placeholder="请输入6-12位数字字母组合密码" autocomplete="on" v-model="forgetPswData.loginKey" />
+            <Input size="large"
+                   type="password"
+                   placeholder="请输入6-12位数字字母组合密码"
+                   autocomplete="on"
+                   v-model="forgetPswData.loginKey" />
           </FormItem>
           <FormItem prop="loginKeyAgain">
-            <Input size="large" type="password"
-              placeholder="请再次输入密码" autocomplete="on" v-model="forgetPswData.loginKeyAgain" />
+            <Input size="large"
+                   type="password"
+                   placeholder="请再次输入密码"
+                   autocomplete="on"
+                   v-model="forgetPswData.loginKeyAgain" />
           </FormItem>
           <div class="public-modal-btn">
-            <Button type="primary" :loading="btLoading" @click="sureResetPsw('forgetPsw')">确认</Button>
-            <Button type="default" @click="forgetKeyModal = false">取消</Button>
+            <Button type="primary"
+                    :loading="btLoading"
+                    @click="sureResetPsw('forgetPsw')">确认</Button>
+            <Button type="default"
+                    @click="forgetKeyModal = false">取消</Button>
           </div>
         </Form>
       </div>
@@ -143,9 +194,9 @@ export default {
       // TODO 地址信息 初始信息
       companyInfo: {
         platformLogoUrl: 'https://eu-static.obs.cn-north-1.myhuaweicloud.com/chrsaas/cloud-hro/logo.png', // logo地址
-        platformName: '云带电管理系统', // 平台名称
-        platformNameEnglish: 'Cloud Electrification Management System', // 平台名称英文
-        mission: '云南特色共享充电宝', // 使命
+        platformName: '基础平台管理系统', // 平台名称
+        platformNameEnglish: 'EU-Admin-Cli', // 平台名称英文
+        mission: '提高易用前端开发流程', // 使命
         missionEnglish: '',
         imagesUrlList: [
           {
