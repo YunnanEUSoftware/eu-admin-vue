@@ -1,0 +1,149 @@
+.login{
+    width: 100%;
+    height: 100%;
+    background: rgb(239, 243, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-bg{
+        position: absolute;
+        left: 0;
+        background:rgb(54, 54, 151);
+        width: 36%;
+        height: 100%;
+        // margin-left: 50%;
+        // transform: translateX(-50%);
+        img{
+            // opacity:0.5;
+            // filter:alpha(opacity=50);/* 针对 IE8 以及更早的版本 */
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .header{
+        background: white;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        &-row{
+            margin-left: 10%;
+            line-height: 80px;
+        }
+        &-img{
+            width: 140px;
+            height: 80px;
+            vertical-align: middle;
+        }
+        &-title{
+            color: #2db7f5;
+            font-size: 24px;
+            vertical-align: middle;
+        }
+    }
+    // & 代表上一级
+    &-con{
+        border-radius: 10px;
+        background: white;
+        width: 900px;
+        height: 600px;
+
+        &-img{
+            // width: 400px;
+            // height: 340px;
+            height: 600px;
+            background: rgb(41, 41, 124);
+            border-radius: 9px 0 0 9px;
+            font-size: 24px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .form-con{
+            height: 600px;
+            margin: 0 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-title{
+                margin: 48px 0;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            &-login{
+                cursor: pointer;
+                text-align: center;
+                font-size: 14px;
+            }
+            &-login-active{
+                color: rgb(41, 41, 124);
+                text-align: center;
+                font-size: 14px;
+                border-bottom: 2px solid rgb(41, 41, 124);
+            }
+            &-reg{
+                cursor: pointer;
+                text-align: center;
+                font-size: 14px;
+            }
+            &-reg-active{
+                color: rgb(41, 41, 124);
+                font-size: 14px;
+                text-align: center;
+                border-bottom: 2px solid rgb(41, 41, 124);
+            }
+        }
+
+    }
+    .footer{
+        background: white;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        text-align: center
+    }
+}
+
+/deep/.ivu-input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+}
+
+/deep/.ivu-input:hover{
+    border-bottom: 2px solid rgb(41, 41, 124);
+    box-shadow: none;
+}
+/deep/.ivu-input:focus{
+    border-bottom: 2px solid rgb(41, 41, 124);
+    box-shadow: none;
+}
+/deep/.ivu-input-group-prepend {
+    background: white;
+    border-right: none;
+}
+/deep/.ivu-btn-primary {
+    background-color: rgb(41, 41, 124);
+    border-color: rgb(41, 41, 124);
+}
+
+/deep/.ivu-btn-default:hover {
+    border-color: rgb(41, 41, 124);
+    color:  rgb(41, 41, 124);
+}
+
+/deep/.ivu-btn-text:hover {
+    border-color: rgb(41, 41, 124);
+    color:  rgb(41, 41, 124);
+}
+/deep/.ivu-form-item-label {
+    color: rgb(41, 41, 124);
+}

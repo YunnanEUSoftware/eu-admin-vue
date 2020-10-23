@@ -132,5 +132,5 @@ export default {
 }
 </script>
 <style lang="less" scoped>
-@import "./login-form.less";
+@import "./loginForm.less";
 </style>
