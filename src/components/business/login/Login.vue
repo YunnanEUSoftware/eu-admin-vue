@@ -225,14 +225,14 @@ export default {
         ],
         loginKey: [
           // 判空
-          { required: true, message: '登录密码不允许为空', trigger: 'change' },
+          { required: true, message: '登录密码不允许为空', trigger: 'change' }
           // 登录密码由6-12位数字、字母组成
-          {
-            type: 'string',
-            pattern: /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,12}$/,
-            message: '登录密码为6-12位数字字母组合',
-            trigger: 'change'
-          }
+          // {
+          //   type: 'string',
+          //   pattern: /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,12}$/,
+          //   message: '登录密码为6-12位数字字母组合',
+          //   trigger: 'change'
+          // }
         ],
         imageCode: [
           { required: true, message: '图片验证码不允许为空', trigger: 'change' }
@@ -263,13 +263,14 @@ export default {
         loginKey: [
           // 判空
           { required: true, message: '登录密码不允许为空', trigger: 'change' },
+          { type: 'string', max: 32, message: '密码长度不超过32位', trigger: 'change' },
           // 登录密码由6-12位数字、字母组成
-          {
-            type: 'string',
-            pattern: /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,12}$/,
-            message: '登录密码为6-12位数字字母组合',
-            trigger: 'change'
-          },
+          // {
+          //   type: 'string',
+          //   pattern: /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,12}$/,
+          //   message: '登录密码为6-12位数字字母组合',
+          //   trigger: 'change'
+          // },
           {
             validator: (rule, value, callback) => {
               if (this.forgetPswData.loginKeyAgain !== '') {

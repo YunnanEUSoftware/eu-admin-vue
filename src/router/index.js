@@ -15,7 +15,7 @@ Vue.use(Router)
 const router = new Router({
   routes,
   mode: 'history',
-  base: '/cloudElectrification'
+  base: '/basicPlatform'
 })
 
 const LOGIN_PAGE_NAME = 'login'
