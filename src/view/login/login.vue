@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Login from '_cb/login'
+import Login from '_cb/login/login'
 export default {
   name: 'Login',
   components: {
