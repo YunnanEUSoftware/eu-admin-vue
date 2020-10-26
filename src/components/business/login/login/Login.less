@@ -1,0 +1,149 @@
+@deep: ~">>>";
+// 头部样式
+.header-home {
+  background: #fff;
+  color: #2d8cf0;
+  .header-flex {
+    height: inherit;
+    display: flex;
+    .header-img {
+      height: inherit;
+      display: flex;
+      align-items: center;
+      margin-right: 16px;
+      img{
+        height: 45px;
+      }
+    }
+    .header-title {
+      height: inherit;
+      display: flex;
+      flex-flow: column;
+      line-height: normal;
+      justify-content: center;
+      .header-title-zn {
+        font-size: 1.5rem;
+      }
+      .header-title-english {
+        text-align-last: justify;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+// 轮播样式 
+.login-layout {
+  height: 100%;
+
+}
+.content {
+  height: 90%;
+
+.carouse-content {
+  height: 100%;
+  position: relative;
+  min-height: 500px
+}
+.ivu-carousel{
+  height: 100% !important;
+
+}
+.ivu-carousel-item{
+  height: 100% !important;
+
+}
+@{deep} .ivu-carousel-list{
+  height: 100% !important;
+
+}
+@{deep} .ivu-carousel-track {
+  height: 100% !important;
+}
+.item-carousel {
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+.item-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit:cover;
+    height: 100%;
+}
+
+}
+
+//  登录框
+@{deep}.login-content-panel {
+  position:absolute;
+  z-index: 1000;
+  top:50%;
+  margin-top:-210px;
+  right: 0%;
+  width: 380px;
+  background: #ffffff;
+  // height: 396px;
+  margin-right: 50px;
+  padding: 25px;
+  padding-top: 12px;
+  box-shadow: 0 1px 6px 0 #bcbcbc;
+  .ivu-tabs-tab {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .nav-text {
+    width: 100%;
+  }
+  .check-row {
+    height: 38px;
+  }
+}
+@{deep}.ivu-tabs-nav {
+  width: 100%;
+}
+@{deep}.ivu-tabs-ink-bar {
+  width: 100% !important;
+}
+
+@{deep}.ivu-tabs-tabpane {
+  display: flex;
+  flex-flow: column;
+  .ivu-form {
+    flex:1;
+    margin-top: 8px;
+  }
+}
+
+@{deep}.ivu-input-large {
+  font-size: 14px;
+  padding: 6px 7px;
+  height: 36px;
+}
+
+// 页脚
+.login-footer {
+  background: #ffffff;
+  width: 100%;
+  text-align: center;
+  color: #808695;
+  line-height: 22px;
+  padding: 10px 50px;
+  .footer-alink {
+    display: block;
+    color: #808695;
+  }
+  
+}
+
+// 模态框
+.model-form {
+  width: 350px;
+  margin: auto;
+}
