@@ -1,9 +1,9 @@
 <template>
-   <login></login>
+  <login></login>
 </template>
 
 <script>
-import Login from '_cb/login/login'
+import Login from '_cb/login'
 export default {
   name: 'Login',
   components: {
