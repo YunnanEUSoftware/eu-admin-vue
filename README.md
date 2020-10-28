@@ -46,24 +46,18 @@ $ eusoft list
 
   ★  eu-admin-server - null
   ★  eu-admin-vue - 基础平台项目
-可用的登录模版列表：
-
-  ★ hrs-login （ hrs 版登录模版 ）
-  ★ ysc-login （ ysc 云上才版登录模版 ）
-  ★ ds-login  （ ds  大蛇版登录模版 ）
-  ★ blue-center-login （ 深蓝色主题 登录块居中版登录模版 ）
 ```
 
 可用的登录模版列表：
 
-  ★ hrs-login （ hrs 版登录模版 ）如图：
-  (./src/assets/images/hrs.png)
+  ★ hrs-login （ hrs 版登录模版 ）
+  [如图](./src/assets/images/hrs.png)
   ★ ysc-login （ ysc 云上才版登录模版 ）
-  (./src/assets/images/ysc-login.png)
+  [如图](./src/assets/images/ysc-login.png)
   ★ ds-login  （ ds  大蛇版登录模版 ）
-  (./src/assets/images/ds.png)
+  [如图](./src/assets/images/ds.png)
   ★ blue-center-login （ 深蓝色主题 登录块居中版登录模版 ）
-  (./src/assets/images/blue.png)
+  [如图](./src/assets/images/blue.png)
 
 
 创建项目
