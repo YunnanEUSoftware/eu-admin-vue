@@ -84,7 +84,7 @@ npm eun dev
   hrs-login （ hrs 版登录模版 ）
   <br>
   <p>
-  <img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/logoItem/3.png"/>
+  <img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/CHRS.png"/>
   </p>
   <br>
   ysc-login （ ysc 云上才版登录模版 ）
