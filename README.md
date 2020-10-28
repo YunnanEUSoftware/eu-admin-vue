@@ -51,13 +51,13 @@ $ eusoft list
 可用的登录模版列表：
 
   ★ hrs-login （ hrs 版登录模版 ）
-  [如图](./src/assets/images/hrs.png)
+  ![image](./src/assets/images/hrs.png)
   ★ ysc-login （ ysc 云上才版登录模版 ）
-  [如图](./src/assets/images/ysc-login.png)
+  ![image](./src/assets/images/ysc-login.png)
   ★ ds-login  （ ds  大蛇版登录模版 ）
-  [如图](./src/assets/images/ds.png)
+  ![image](./src/assets/images/ds.png)
   ★ blue-center-login （ 深蓝色主题 登录块居中版登录模版 ）
-  [如图](./src/assets/images/blue.png)
+  ![image](./src/assets/images/blue.png)
 
 
 创建项目
