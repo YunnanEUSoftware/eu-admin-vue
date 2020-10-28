@@ -9,7 +9,7 @@
 
 
 ## 快速开始
->方法一 
+>方法一
 
 从GitHub直接获取代码，使用如下命令获取最新代码
 
@@ -46,7 +46,25 @@ $ eusoft list
 
   ★  eu-admin-server - null
   ★  eu-admin-vue - 基础平台项目
+可用的登录模版列表：
+
+  ★ hrs-login （ hrs 版登录模版 ）
+  ★ ysc-login （ ysc 云上才版登录模版 ）
+  ★ ds-login  （ ds  大蛇版登录模版 ）
+  ★ blue-center-login （ 深蓝色主题 登录块居中版登录模版 ）
 ```
+
+可用的登录模版列表：
+
+  ★ hrs-login （ hrs 版登录模版 ）如图：
+  (./src/assets/images/hrs.png)
+  ★ ysc-login （ ysc 云上才版登录模版 ）
+  (./src/assets/images/ysc-login.png)
+  ★ ds-login  （ ds  大蛇版登录模版 ）
+  (./src/assets/images/ds.png)
+  ★ blue-center-login （ 深蓝色主题 登录块居中版登录模版 ）
+  (./src/assets/images/blue.png)
+
 
 创建项目
 
@@ -59,6 +77,12 @@ $ eusoft init
 
 ? 请选择模版 eu-admin-vue
 ? 请输入项目名字 // 输入你的项目名称
+
+? 请选择登录模版
+  hrs-login
+> ysc-login
+  ds-login
+  blue-center-login
 
  开始生成项目，请等待...
 
