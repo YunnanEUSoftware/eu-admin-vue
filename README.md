@@ -81,25 +81,25 @@ npm eun dev
 
 可选用的登录模版列表：
 
-  ★ hrs-login （ hrs 版登录模版 ）
+  hrs-login （ hrs 版登录模版 ）
   <br>
   <p>
   <img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/logoItem/3.png"/>
   </p>
   <br>
-  ★ ysc-login （ ysc 云上才版登录模版 ）
+  ysc-login （ ysc 云上才版登录模版 ）
   <br>
   <p>
   <img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/logoItem/4.png"/>
   </p>
   <br>
-  ★ ds-login  （ ds  大蛇版登录模版 ）
+  ds-login  （ ds  大蛇版登录模版 ）
   <br>
   <p>
   <img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/logoItem/1.png"/>
   </p>
   <br>
-  ★ blue-center-login （ 深蓝色主题 登录块居中版登录模版 ）
+  blue-center-login （ 深蓝色主题 登录块居中版登录模版 ）
   <br>
   <p>
   <img src="https://github.obs.cn-north-1.myhuaweicloud.com/static/logoItem/2.png"/>
